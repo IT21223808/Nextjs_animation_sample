@@ -2,7 +2,7 @@
 'use client'
 import Image from 'next/image'
 import React from 'react'
-
+import Link from 'next/link';
 import {motion} from "framer-motion"
 import HeroAnimation from './HeroAnimation'
 
@@ -67,12 +67,12 @@ function Hero({}: Props) {
                     </motion.li>
                 </motion.ul>
                 <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.3, delay:1.5}} className='mt-10 flex flex-col items-center sm:flex-row gap-3'>
-                    <a href="/" className='inline-flex relative z-10 h-10 rounded-xl p-px shadow-lg bg-gradient-to-b from-white to-zinc-300'>
+                    <Link href="/" className='inline-flex relative z-10 h-10 rounded-xl p-px shadow-lg bg-gradient-to-b from-white to-zinc-300'>
                         <div className='flex items-center gap-1 px-6 font-medium rounded-xl whitespace-nowrap bg-white text-black'>
                             <span>Get Started</span>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="fill-current h-3.5 "><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z"></path></svg>
                         </div>
-                    </a>
+                    </Link>
                 </motion.div>
             </div>
             <div className='hidden md:block pt-3 shrink grow overflow-hidden z-50'>
