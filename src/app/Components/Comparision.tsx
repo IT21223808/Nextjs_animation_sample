@@ -110,7 +110,7 @@ const data = [
 ];
 
 function getRandomColor (){
-  let color = `hsl(${Math.random() * 360}, 100%, 85%)`
+    const color = `hsl(${Math.random() * 360}, 100%, 85%)`
   return color
 }
 
