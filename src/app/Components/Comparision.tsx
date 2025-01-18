@@ -114,8 +114,6 @@ function getRandomColor (){
   return color
 }
 
-type Props = {}
-
 
 function Comparison() {
 

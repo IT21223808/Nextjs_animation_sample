@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-type Props = {}
+
 import {motion} from "framer-motion"
 import Link from 'next/link';
 

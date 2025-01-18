@@ -6,7 +6,6 @@ import Link from 'next/link';
 import {motion} from "framer-motion"
 import HeroAnimation from './HeroAnimation'
 
-type Props = {}
 
 function Hero() {
     const wrapper = {
