@@ -8,7 +8,7 @@ import HeroAnimation from './HeroAnimation'
 
 type Props = {}
 
-function Hero({}: Props) {
+function Hero() {
     const wrapper = {
         hidden:{
             opacity:0

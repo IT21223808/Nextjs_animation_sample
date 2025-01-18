@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link';
 type Props = {}
 
-function Footer({}: Props) {
+function Footer() {
   return (
     <div className='dark'>
         <footer className='bg-zinc-50 dark:bg-black text-zinc-700 dark:text-zinc-400 text-sm z-20'>
