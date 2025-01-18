@@ -117,7 +117,7 @@ function getRandomColor (){
 type Props = {}
 
 
-function Comparison({}: Props) {
+function Comparison() {
 
   const randomColor = getRandomColor()
 
