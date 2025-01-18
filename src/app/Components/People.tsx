@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 type Props = {}
 
-function People({}: Props) {
+function People() {
     const wrapper = {
         hidden:{
             opacity:0

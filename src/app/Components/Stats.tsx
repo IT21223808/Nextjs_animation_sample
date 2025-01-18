@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 type Props = {}
 
-function Stats({}: Props) {
+function Stats() {
     const wrapperstat = {
         hidden:{
             opacity:0, translateX:-100

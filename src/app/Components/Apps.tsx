@@ -6,7 +6,7 @@ import {motion, useScroll, useTransform} from "framer-motion"
 
 type Props = {}
 
-function Apps({}: Props) {
+function Apps() {
     const scrollref = useRef<HTMLDivElement>(null)
     const {scrollYProgress} = useScroll({
         target:scrollref,
